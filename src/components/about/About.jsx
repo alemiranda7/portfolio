@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.JPG'
 import Info from './Info'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/Alex-Cv.pdf'
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                Atuei durante 3 anos como Anal e médioaaaaa ,admiho facilidade em propor soluções por jáaa ter atuado em vários projetos para clientes com negócios totalmente distintos. Atuei com sistemas do SUS – Sistema único de saúde, de departamento de pessoal e controle de processos administrativos e judiciais.
+                I've been working with development for 5 years, but I also worked as a manager of a dental clinic for 2 years and 1 year as a teacher of programming logic for elementary and high school.
                 </p>
 
                 <a download='' href={CV} className="button button--flex">Download CV
