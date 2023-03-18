@@ -3,37 +3,43 @@ import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
+import Work7 from "../../assets/work7.jpg"
 
 export const projectsData = [
     {
       id: 1,
-      image: Work1,
-      title: "Web design",
-      category: "web",
+      image: Work7,
+      title: "Clinic Landpage",
+      category: "Web",
+      link: '#home',
     },
     {
       id: 2,
-      image: Work2,
-      title: "App movil",
+      image: Work7,
+      title: "Odonto App",
       category: "app",
+      link: '#skills',
     },
     {
       id: 3,
-      image: Work3,
-      title: "Brand design",
-      category: "design",
+      image: Work7,
+      title: "Demand App",
+      category: "app",
+      link: '',
     },
     {
       id: 4,
-      image: Work4,
-      title: "App movil",
-      category: "app",
+      image: Work7,
+      title: "Dentist Landpage",
+      category: "web",
+      link: '',
     },
     {
       id: 5,
-      image: Work5,
-      title: "Web design",
-      category: "web",
+      image: Work7,
+      title: "Consuming API Pokedex",
+      category: "back",
+      link: '',
     },
   ];
 
@@ -51,6 +57,6 @@ export const projectsData = [
     },
     
     {
-        name: 'design',
+        name: 'back',
     },
   ]
